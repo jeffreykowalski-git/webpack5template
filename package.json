@@ -1,0 +1,22 @@
+{
+  "name": "webpack_template",
+  "version": "1.0.0",
+  "description": "Blank template for webpack 5+",
+  "main": "./src/js/app.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js",
+    "prod": "NODE_ENV=production webpack",
+    "watch": "npm run dev -- --watch"
+  },
+  "author": "J Kowalski",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "jquery": "^3.6.3",
+    "node-sass": "^8.0.0",
+    "sass": "^1.58.0",
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.75.0",
+    "webpack-build-notifier": "^2.3.0"
+  }
+}
