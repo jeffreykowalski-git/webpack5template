@@ -5,7 +5,6 @@ import $ from 'jquery';
 //Script
 $(document).ready(function() {
 
-  console.log('JS transpiled');
+  console.log('JS/SCSS transpiled');
   
-
 });

@@ -11,6 +11,9 @@
   "author": "J Kowalski",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
     "jquery": "^3.6.3",
     "node-sass": "^8.0.0",
     "sass": "^1.58.0",
